@@ -1,15 +1,11 @@
-Open sidebar
-
-C Networking Tool
 
 
 
 
-Write a c code for a networking tool in C
 
-Here's an example C program for a simple networking tool that uses sockets to establish a connection and send data over a network
 
-```
+
+
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -66,12 +62,7 @@ if (sock == -1
 
 
 				return (1
-
-				       );
-
-
-
-			}
+	}
 
 struct sockaddr_in server_addr;
 memset(&server_addr, 0, sizeof
